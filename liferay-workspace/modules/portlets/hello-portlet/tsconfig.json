@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"sourceMap": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noImplicitAny": false,
+		"moduleResolution": "node",
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"lib": [
+			"es6",
+			"dom"
+		]
+	},
+	"include": [
+		"src/main/resources/META-INF/resources/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
