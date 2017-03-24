@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>Liferay Trial</account-name>
+	<owner>Liferay Trial</owner>
+	<description>Liferay Trial</description>
+	<product-name>Portal Development</product-name>
+	<product-version>7.0 DE</product-version>
+	<license-name>Portal Developer</license-name>
+	<license-type>developer</license-type>
+	<license-version>5</license-version>
+	<start-date>Monday, June 20, 2016 7:00:00 AM GMT</start-date>
+	<expiration-date>Tuesday, June 20, 2017 7:00:00 AM GMT</expiration-date>
+	<max-http-sessions>5</max-http-sessions>
+	<key>13326bb9c3dbc8dfb65d9f9036247a9557a43a829cf5bededb936ad57f4cbd7dc6b426bdee4f3a5f9d3a33d7845d6178d5dcdb21efa357a37e03f485937957bf4d6b134f20ccec038e6983bb8d3406ea1354cb32376f760e9839c27b542329d1e6d946190c91bbb5b3b2ff2de7afa160c20a8efbebc59014ec7a17062b444ec68613b5f4</key>
+</license>
