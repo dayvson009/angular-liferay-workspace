@@ -1,4 +1,4 @@
-# angular2-liferay-workspace
-Liferay DXP workspace
+# Liferay DXP Angular 2 workspace
+> Examples of Angular 2 instantiable portlets.
 
-Example of multiple instanciable Angular 2 portlets capable of being placed on the same page in the portal.
+![](https://github.com/tastejs/todomvc-app-css/raw/master/screenshot.png)
