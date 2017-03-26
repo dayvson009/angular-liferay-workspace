@@ -27,9 +27,6 @@ compileTypeScript {
 }
 
 task copyAngularModules(type: Copy) {
-	from ('package.json') {
-		into '../../'
-	}
 	from ('node_modules/@angular') {
 		into '@angular'
 	}

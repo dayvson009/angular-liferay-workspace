@@ -3,7 +3,6 @@
   "description": "Tour of Heros Angular2 portlet",
   "version": "1.0.0",
   "license": "MIT",
-  "angular-cli": {},
   "scripts": {},
   "dependencies": {
     "@angular/common": "~4.0.0",

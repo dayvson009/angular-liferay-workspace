@@ -18,7 +18,7 @@ export class AppComponent {
     portletNamespace: string;
 
     constructor(appConfig: AppConfig) {
-        this.name = 'Angular2';
+        this.name = 'Angular';
         this.portletNamespace = appConfig.portletNamespace;
     }
 }
