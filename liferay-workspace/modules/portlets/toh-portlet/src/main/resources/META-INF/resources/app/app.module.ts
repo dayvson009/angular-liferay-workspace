@@ -1,4 +1,4 @@
-import { NgModule, ApplicationRef, ComponentFactoryResolver, Injector } from '@angular/core';
+import { NgModule, ApplicationRef, ComponentFactoryResolver } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -37,14 +37,13 @@ export function createAppModule( portletNamespace: string ) {
     class AppModule {
         constructor(
             private resolver: ComponentFactoryResolver,
-            private injector: Injector,
             private appConfig: AppConfig
         ) { }
 
         ngDoBootstrap(appRef: ApplicationRef) {
             const factory = this.resolver.resolveComponentFactory(AppComponent);
-            const appComponentRef = factory.create(this.injector, [], "toh-app#" + this.appConfig.portletNamespace);
-            appRef.attachView(appComponentRef.hostView);
+            (<any>factory).factory.selector = "toh-app#" + this.appConfig.portletNamespace;
+            appRef.bootstrap(factory);
         }
     }
 
