@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 
-import { AppConfig } from './app.config.js';
+import { AppConfig } from './app.config';
 
 @Component( {
     selector: 'hello-app',
