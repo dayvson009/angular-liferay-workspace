@@ -4,8 +4,8 @@
       'npm:': '/o/hello-portlet-1.0.0/node_modules/'
     },
     map: {
-      'app': 'app',
-      'main': '/o/hello-portlet-1.0.0',
+       'app': 'app',
+       'main': 'main.js',
       '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
       '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
       '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
@@ -18,11 +18,8 @@
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
     },
     packages: {
-      main: {
-        main: 'main.js',
-        defaultExtension: 'js'
-      },
-      api: {
+      app: {
+        main: './main.js',
         defaultExtension: 'js'
       },
       rxjs: {
