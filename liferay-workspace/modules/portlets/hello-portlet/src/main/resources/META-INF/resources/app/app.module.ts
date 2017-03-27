@@ -2,8 +2,8 @@ import { NgModule, ApplicationRef, ComponentFactoryResolver } from '@angular/cor
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component.js';
-import { AppConfig } from './app.config.js';
+import { AppComponent } from './app.component';
+import { AppConfig } from './app.config';
 
 export function createAppModule(portletNamespace: string) {
     @NgModule({

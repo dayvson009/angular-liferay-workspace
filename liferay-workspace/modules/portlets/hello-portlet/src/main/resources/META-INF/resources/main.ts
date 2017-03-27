@@ -1,6 +1,6 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { createAppModule } from './app/app.module.js';
+import { createAppModule } from './app/app.module';
 
 export function RunApplication(portletNamespace: string) {
     platformBrowserDynamic()
