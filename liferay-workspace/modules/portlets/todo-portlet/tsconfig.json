@@ -15,7 +15,9 @@
 		"lib": [
 			"es6",
 			"dom"
-		]
+		],
+		"outDir": "bin",
+		"rootDir": "src/main/resources/META-INF/resources"
 	},
 	"include": [
 		"src/main/resources/META-INF/resources/**/*"

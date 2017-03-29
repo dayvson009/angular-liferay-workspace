@@ -1,4 +1,5 @@
 <%@ include file="/init.jsp"%>
+
 <script type="text/javascript">
 	System.import('/o/todo-portlet-1.0.0/main.js').then(
 		(m) => {

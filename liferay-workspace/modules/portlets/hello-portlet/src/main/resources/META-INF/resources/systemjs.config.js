@@ -1,11 +1,9 @@
 (function (global) {
   System.config({
-    paths: {
+	paths: {
       'npm:': '/o/hello-portlet-1.0.0/node_modules/'
     },
     map: {
-       'app': 'app',
-       'main': 'main.js',
       '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
       '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
       '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
@@ -18,15 +16,11 @@
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
     },
     packages: {
-      app: {
-        main: './main.js',
-        defaultExtension: 'js'
-      },
-      rxjs: {
-        defaultExtension: 'js'
-      }
+       rxjs: {
+         defaultExtension: 'js'
+       }
     }
   });
 
-  System.import('/o/hello-portlet-1.0.0/node_modules/zone.js/dist/zone.js').catch(function(err){});
+  System.import('npm:zone.js/dist/zone.js').catch(function(err){});
 })(this);
